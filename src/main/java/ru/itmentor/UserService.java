@@ -11,7 +11,7 @@ import java.util.List;
  * \
  */
 
-public class Logic {
+public class UserService {
     private static final String URL_API = "http://94.198.50.185:7081/api/users/";
 
     private final RestTemplate restTemplate = new RestTemplate();

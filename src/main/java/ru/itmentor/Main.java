@@ -7,8 +7,8 @@ package ru.itmentor;
 
 public class Main {
     public static void main(String[] args) {
-        Logic logic = new Logic();
-        logic.work();
-        System.out.println(logic.getKey());
+        UserService userService = new UserService();
+        userService.work();
+        System.out.println(userService.getKey());
     }
 }
